@@ -9,10 +9,12 @@ export default defineUserConfig({
   lang: 'zh-CN',
   bundler: viteBundler(),
   theme: defaultTheme({
+    repo: 'StarSky919/starrybot-docs',
     notFound: ['找不到这个页面！'],
     backToHome: '返回主页',
-    repo: 'StarSky919/starrybot-docs',
     editLink: false,
+    lastUpdatedText: '上次更新',
+    contributorsText: '协作编辑',
     navbar: [
       {
         text: '首页',
