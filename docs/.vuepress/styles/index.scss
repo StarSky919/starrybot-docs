@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "MiSans";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/MiSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(/fonts/MiSans-Demibold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "SarasaFixedSC";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/SarasaFixedSC-Regular.ttf) format("truetype");
+}
+
+:root {
+  --font-family: "MiSans", sans-serif;
+  --code-font-family: "SarasaFixedSC", monospace;
+  scroll-behavior: smooth;
+}
+
+.hint-container.details {
+  overflow: hidden;
+}
+
+.hint-container.details .language-text {
+  max-width: 100%;
+  margin: 0 auto;
+}
