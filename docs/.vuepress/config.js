@@ -5,11 +5,12 @@ import { defineUserConfig } from 'vuepress'
 export default defineUserConfig({
   title: 'StarryBot',
   description: 'StarryBot 文档',
-
   lang: 'zh-CN',
   bundler: viteBundler(),
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   theme: defaultTheme({
-    repo: 'StarSky919/starrybot-docs',
     notFound: ['找不到这个页面！'],
     backToHome: '返回主页',
     editLink: false,
@@ -19,7 +20,11 @@ export default defineUserConfig({
       {
         text: '首页',
         link: '/',
-      }
+      },
+      {
+        text: '关于',
+        link: '/about/',
+      },
     ],
     themePlugins: {
       backToTop: false,
@@ -31,7 +36,7 @@ export default defineUserConfig({
         lineNumbers: false,
         collapsedLines: false,
         preloadLanguages: ['markdown', 'javascript'],
-      }
+      },
     },
   }),
 })

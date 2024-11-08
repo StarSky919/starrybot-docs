@@ -23,9 +23,22 @@
 }
 
 :root {
+  --vp-c-accent: #8787ff;
+  --vp-c-accent-bg: #a9a9ff;
+  --vp-c-accent-hover: #babaff;
+  --vp-c-accent-soft: rgb(101 101 255 / 14%);
+
   --font-family: "MiSans", sans-serif;
   --code-font-family: "SarasaFixedSC", monospace;
+
   scroll-behavior: smooth;
+}
+
+[data-theme='dark'] {
+  --vp-c-accent: #babaff;
+  --vp-c-accent-bg: #a9a9ff;
+  --vp-c-accent-hover: #9898ff;
+  --vp-c-accent-soft: rgb(101 101 255 / 16%);
 }
 
 .hint-container.details {
