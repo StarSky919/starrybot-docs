@@ -1,3 +1,3 @@
 # starrybot-docs
 
-<https://starrybot.starsky919.xyz/>
+<https://bot.starsky919.xyz/>
