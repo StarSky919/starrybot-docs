@@ -1,6 +1,6 @@
-import { viteBundler } from '@vuepress/bundler-vite'
-import { defaultTheme } from '@vuepress/theme-default'
-import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite';
+import { defaultTheme } from '@vuepress/theme-default';
+import { defineUserConfig } from 'vuepress';
 
 export default defineUserConfig({
   title: 'StarryBot',
@@ -10,6 +10,7 @@ export default defineUserConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
+  plugins: [],
   theme: defaultTheme({
     notFound: ['找不到这个页面！'],
     backToHome: '返回主页',
@@ -22,6 +23,23 @@ export default defineUserConfig({
         link: '/',
       },
       {
+        text: '使用 Bot',
+        children: [
+          {
+            text: '开始之前',
+            link: '/guide/',
+          },
+          {
+            text: '插件列表',
+            link: '/plugins/',
+          },
+          {
+            text: '常见问题',
+            link: '/faq/',
+          },
+        ],
+      },
+      {
         text: '关于',
         link: '/about/',
       },
@@ -32,11 +50,11 @@ export default defineUserConfig({
         showInMobile: true,
       },
       prismjs: {
-        themes: { light: 'coy', dark: 'cb' },
+        themes: { light: 'one-light', dark: 'one-dark' },
         lineNumbers: false,
         collapsedLines: false,
         preloadLanguages: ['markdown', 'javascript'],
       },
     },
   }),
-})
+});

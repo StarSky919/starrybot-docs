@@ -16,7 +16,7 @@
 
 文档仓库：[StarSky919/starrybot-docs](https://github.com/StarSky919/starrybot-docs)
 
-头像来自画师[みつきひな](https://www.pixiv.net/users/7805)，仅作临时用途，并非 Bot 的官方设定。请不要把该形象与 Bot 绑定。
+头像来自画师 [みつきひな](https://www.pixiv.net/users/7805)，仅作临时用途，并非 Bot 的官方设定。请不要把该形象与 Bot 绑定。
 
 ### 小趣事
 
@@ -44,6 +44,8 @@ Bot 目前还处在开发期，功能变动较为频繁。在以前，所有新�
 
 - CODE NAME: OMEGA
   - 帮助测试功能和提出建议。
+
+- 范店
 
 - CODE NAME: DIFFICULTY CHART
   - 提供 Cytus II 的谱面定数数据。
@@ -74,7 +76,7 @@ Bot 目前还处在开发期，功能变动较为频繁。在以前，所有新�
   - [QIU1995NONAME/Arena-Bot](https://github.com/QIU1995NONAME/Arena-Bot)
   - [Arcaea-Infinity/ArcaeaUnlimitedAPI](https://github.com/Arcaea-Infinity/ArcaeaUnlimitedAPI)
 
-感谢各位开发者所做的贡献。
+感谢所有开发者做出的贡献。
 
 <!-- ### Bot
 

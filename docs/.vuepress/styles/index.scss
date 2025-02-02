@@ -1,25 +1,25 @@
 @font-face {
-    font-family: "MiSans";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(/fonts/MiSans-Regular.ttf) format("truetype");
+  font-family: "MiSans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/MiSans-Regular.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: "MiSans";
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url(/fonts/MiSans-Demibold.ttf) format("truetype");
+  font-family: "MiSans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts/MiSans-Demibold.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: "SarasaFixedSC";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(/fonts/SarasaFixedSC-Regular.ttf) format("truetype");
+  font-family: "SarasaFixedSC";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/SarasaFixedSC-Regular.ttf) format("truetype");
 }
 
 :root {
@@ -41,11 +41,7 @@
   --vp-c-accent-soft: rgb(101 101 255 / 16%);
 }
 
-.hint-container.details {
-  overflow: hidden;
-}
-
-.hint-container.details .language-text {
+.hint-container .language-text {
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0.75rem auto;
 }
