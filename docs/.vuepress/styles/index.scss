@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/fonts/MiSans-Regular.ttf) format("truetype");
+  src: url("/fonts/MiSans-Regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(/fonts/MiSans-Demibold.ttf) format("truetype");
+  src: url("/fonts/MiSans-Demibold.woff2") format("woff2");
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/fonts/SarasaFixedSC-Regular.ttf) format("truetype");
+  src: url("/fonts/SarasaFixedSC-Regular.woff2") format("woff2");
 }
 
 :root {
