@@ -34,6 +34,8 @@ a.const <定数>
 
 ## 查看谱面预览
 
+<p><Badge type="danger" text="已移除" vertical="middle" /></p>
+
 ```
 a.chart <歌曲名称>
 ```
