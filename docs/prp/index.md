@@ -54,14 +54,15 @@ sidebar: false
       headers: headers(token),
     }).then(res => res.json());
     if (detail === 'Not authenticated') return;
-    loggedIn.value = true;
-    userName.value = data.username;
-    uploadToken.value = data.upload_token;
+    else if (detail) return;
     await fetch(`${baseURL}/user/me`, {
       method: 'PATCH',
       body: JSON.stringify({ anonymous_probe: true }),
       headers: headers(token),
     });
+    userName.value = data.username;
+    uploadToken.value = data.upload_token;
+    loggedIn.value = true;
   }
 
   async function onLogin(event) {
