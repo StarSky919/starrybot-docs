@@ -2,12 +2,6 @@
 
 与 Cytoid 相关的功能。
 
-::: warning
-
-由于 Cytoid 的服务器并不稳定，有时会查询失败。此为正常现象。
-
-:::
-
 ---
 
 主命令：`ctd`
@@ -32,10 +26,42 @@ ctd.bind <Cytoid ID>
 ctd.unbind
 ```
 
+## 查询账号信息
+
+```
+ctd.profile [Cytoid ID]
+```
+
+命令别名：`ctd.info`
+
+如果不指定 `[Cytoid ID]`，会使用已绑定的账号作为查询目标。
+
+## 查询关卡信息
+
+```
+ctd.level [关卡ID]
+```
+
+## 查询 Recent 30
+
+```
+ctd.r30 [Cytoid ID]
+```
+
+可用选项：
+
+- `--nopic` `-n` 不加载曲绘
+
+如果不指定 `[Cytoid ID]`，会使用已绑定的账号作为查询目标。
+
 ## 查询 Best 30
 
 ```
 ctd.b30 [Cytoid ID]
 ```
+
+可用选项：
+
+- `--nopic` `-n` 不加载曲绘
 
 如果不指定 `[Cytoid ID]`，会使用已绑定的账号作为查询目标。

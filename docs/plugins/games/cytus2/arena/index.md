@@ -1,5 +1,7 @@
 # Cytus II 竞技场
 
+<p><Badge type="warning" text="群聊" vertical="middle" /></p>
+
 和群友一起玩 Cytus II！
 
 每一轮竞技的流程大致如下：
