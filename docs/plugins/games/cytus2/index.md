@@ -147,12 +147,12 @@ Combos: 169+60
 ## 计算 TP 值
 
 ```
-cy.tp <C.PERFECT> <PERFECT> [GOOD] [BAD] [MISS]
+cy.tp <MASTER> <C.PERFECT> [PERFECT] [GOOD] [BAD] [MISS]
 ```
 
-根据结算时各级判定的数量计算 TP 值。
+根据结算时各级判定的数量计算精确的 M.TP 和 TP 值。
 
-此命令主要用于在 Master 模式结算时计算非 Master 模式下的 TP 值，此时 `<C.PERFECT>` 的值为 MASTER 和 C.PERFECT 的数量之和。
+如果不是在 Master 模式中结算的成绩，`<MASTER>` 填 0 即可，此时 Bot 将不会展示 M.TP 值。
 
 ## 计算谱面物量
 
