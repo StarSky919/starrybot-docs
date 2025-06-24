@@ -2,7 +2,7 @@
 sidebar: false
 ---
 
-# 插件列表
+# 功能列表
 
 - 查看帮助：[help](./help/)
 - 基础功能：[base](./base/)
@@ -17,7 +17,8 @@ sidebar: false
   - Phigros：[phigros](./games/phigros/)
   - Arcaea：[arcaea](./games/arcaea/)
   - Wordle：[wordle](./games/wordle/)
-- 网梗生成：[memes](./memes/)
+  - 扫雷：[minesweeper](./games/minesweeper/)
+- Meme相关：[memes](./memes/)
 - 辅助工具：[tools](./tools/)
   - 文本处理：[text](./tools/text/)
 

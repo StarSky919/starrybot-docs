@@ -36,7 +36,7 @@ mainbot
 choose <first> <...rest>
 ```
 
-快捷方式：`选x还是x` <Badge type="warning" text="需要前缀" vertical="middle" />
+快捷方式：`选(选项)还是(选项)` <Badge type="warning" text="需要前缀" vertical="middle" />
 
 最多只能有五个选项。
 
@@ -136,7 +136,7 @@ roll [表达式]
 
 命令别名：`r`
 
-快捷方式：`r表达式` <Badge type="warning" text="需要前缀" vertical="middle" />
+快捷方式：`r(表达式)` <Badge type="warning" text="需要前缀" vertical="middle" />
 
 表达式举例：
 - `1d6` 掷 1 个 6 面骰。

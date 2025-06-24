@@ -1,7 +1,3 @@
----
-sidebar: false
----
-
 # Wordle
 
 猜单词游戏 (Wordle)。
@@ -30,15 +26,13 @@ wordle [参数]
 
 `[参数]` 在游戏开始前用于指定单词长度 (默认为 5)，游戏开始后则用于提交答案。
 
-[[toc]]
-
 ## 提交单词
 
 ```
 wordle.commit <单词>
 ```
 
-快捷方式：`w.单词` <Badge type="tip" text="无需前缀" vertical="middle" />
+快捷方式：`w.(单词)` <Badge type="tip" text="无需前缀" vertical="middle" />
 
 ## 设置词库
 

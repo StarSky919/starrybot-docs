@@ -30,7 +30,7 @@ export default defineUserConfig({
             link: '/guide/',
           },
           {
-            text: '插件列表',
+            text: '功能列表',
             link: '/plugins/',
           },
           {

@@ -12,8 +12,6 @@
 
   - [Discord](https://discord.gg/kC3pfZvw)
 
-官方 QQ 群聊：[486908465](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=CzsBPRON_4vxujeO_q0cvzqs7YiHegcX&authKey=w3M1Mo7JuM07R0wY0RHScTRI4O%2FVK%2BVJuWu2o3lzqjqdXf0AnwrMQWGzSsKxiDyN&noverify=0&group_code=486908465)
-
 文档仓库：[StarSky919/starrybot-docs](https://github.com/StarSky919/starrybot-docs)
 
 头像来自画师 [みつきひな](https://www.pixiv.net/users/7805)，仅作临时用途，并非 Bot 的官方设定。请不要把该形象与 Bot 绑定。

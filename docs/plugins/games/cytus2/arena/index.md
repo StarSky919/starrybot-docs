@@ -100,7 +100,7 @@ arena.close
 arena.submit <TP>
 ```
 
-快捷方式：`TP` <Badge type="warning" text="需要前缀" vertical="middle" />
+快捷方式：`(TP)` <Badge type="warning" text="需要前缀" vertical="middle" />
 
 - 说明：假设命令前缀为 `#`，需要提交的成绩为 `100`，直接发送 `#100` 即可。
 

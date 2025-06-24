@@ -1,28 +1,5 @@
-/*
-@font-face {
-  font-family: "MiSans";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/fonts/MiSans-Regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "MiSans";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("/fonts/MiSans-Demibold.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "SarasaFixedSC";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/fonts/SarasaFixedSC-Regular.woff2") format("woff2");
-}
-*/
+@import url("https://fontsapi.zeoseven.com/159/main/result.css");
+@import url("https://fontsapi.zeoseven.com/214/main/result.css");
 
 :root {
   --vp-c-accent: #8787ff;
@@ -30,13 +7,12 @@
   --vp-c-accent-hover: #babaff;
   --vp-c-accent-soft: rgb(101 101 255 / 14%);
 
-  /* --font-family: "MiSans", sans-serif;
-  --code-font-family: "SarasaFixedSC", monospace; */
-
+  --font-family: "Sarasa UI SC", sans-serif;
+  --code-font-family: "Sarasa Mono SC", monospace;
   scroll-behavior: smooth;
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   --vp-c-accent: #babaff;
   --vp-c-accent-bg: #a9a9ff;
   --vp-c-accent-hover: #9898ff;

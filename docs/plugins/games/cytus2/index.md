@@ -138,7 +138,7 @@ Combos: 169+60
 
 `GOOD` 为需要在连击中打出的 GOOD 数量。例如在这个解法中，你需要在两段连击里打出总计 2 个 GOOD。
 
-`Single GOOD & BAD` 为需要单独打出的 GOOD 或 BAD 数量。如果要打 GOOD，需要特别注意不能让 GOOD 形成连击。
+`Single GOOD & BAD` 为需要单独打出的 GOOD 和 BAD 数量。如果要打 GOOD，需要特别注意不能让 GOOD 形成连击。
 
 `Combos` 为连击分段。`169+60` 表示需要分别打出一段 169 Combo 和一段 60 Combo。
 
