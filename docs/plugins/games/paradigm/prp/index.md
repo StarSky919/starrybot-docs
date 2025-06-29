@@ -20,6 +20,12 @@
 
 :::
 
+::: details 查分图展示
+
+![示例图片](/images/b50.jpg)
+
+:::
+
 ---
 
 主命令：`prp`
@@ -29,10 +35,10 @@
 ## 绑定 PRP 账号
 
 ```
-prp.bind <用户名>
+prp.bind <用户名/Token>
 ```
 
-请注意：Token 的绑定需要使用 `prp.token` 而非此命令。
+绑定 Token 前需要先绑定用户名。
 
 ## 解绑 PRP 账号
 
@@ -45,6 +51,8 @@ prp.unbind
 ```
 prp.token <Token>
 ```
+
+此命令的功能已与 `prp.bind` 合并，未来可能会被删除。
 
 ## 上传成绩
 

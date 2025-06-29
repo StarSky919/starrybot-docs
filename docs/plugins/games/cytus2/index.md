@@ -75,6 +75,16 @@ cy.chart <歌曲名称> [谱面难度]
 
 参数同 `cy.song`，谱面难度默认为 CHAOS。
 
+| 难度 | 全称 | 缩写 |
+| :---: | :---: | :---: |
+| 简单 | easy | / |
+| 困难 | hard | / |
+| 混沌 | chaos | / |
+| 混乱 | glitch | / |
+| CRASH | crash | / |
+| DREAM | dream | / |
+| DROP | drop | / |
+
 ## 物量查谱
 
 ```

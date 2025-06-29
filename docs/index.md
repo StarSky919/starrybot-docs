@@ -8,6 +8,12 @@ StarryBot 是一款可在 QQ 中使用的机器人，功能以音游 Cytus II �
 
 这份文档将指引你如何使用 StarryBot。
 
+## 最近更新
+
+- [Deemo II (花雨旋律)](./plugins/games/deemo2/)
+
+- [扫雷游戏 (Minesweeper)](./plugins/games/minesweeper/)
+
 ## 添加 Bot
 
 目前有两个正式运营的公开账号：

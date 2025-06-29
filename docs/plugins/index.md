@@ -12,6 +12,7 @@ sidebar: false
     - Cytus II 竞技场：[arena](./games/cytus2/arena/)
   - Cytoid：[cytoid](./games/cytoid/)
   - Deemo：[deemo](./games/deemo/)
+  - Deemo II：[deemo2](./games/deemo2/)
   - Paradigm: Reboot：[paradigm](./games/paradigm/)
     - PRP 查分：[prp](./games/paradigm/prp/)
   - Phigros：[phigros](./games/phigros/)
